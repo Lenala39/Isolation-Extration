@@ -1,0 +1,447 @@
+Edit distance:  0
+C1 results:  Counter({'False': 9, 'True': 9, 'Included': 8})
+C2 results:  Counter({'False': 9, 'True': 9, 'Included': 8})
+Results:  Counter({'False': 15, 'Included': 7, 'True': 4}) 
+
+False
+Expected:  Bartonella tribocorum - isolated_from - the blood of wild rats / fleas obtained from wild rats
+Got:  Bartonella tribocorum - isolated_from - fleas obtained from wild rats / wild rats / blood of wild rats
+
+
+False
+Expected:  Bartonella elizabethae - isolated_from - a case of endocarditis in a human
+Got:  This organism - isolated_from - a case of endocarditis in a human
+
+
+False
+Expected:  Most of the ~30 known species of bifidobacteria - isolated_from - the mammalian GIT / the vaginal and oral cavity
+Got:  Most of the ~ 30 known species of bifidobacteria - isolated_from - the mammalian GIT , and some from the vaginal and oral cavity / the vaginal and oral cavity
+
+
+False
+Expected:  Most of the ~30 known species of bifidobacteria - isolated_from - the mammalian GIT / the vaginal and oral cavity
+Got:  Most of the ~ 30 known species of bifidobacteria - isolated_from - the mammalian GIT , and some from the vaginal and oral cavity / the vaginal and oral cavity
+
+
+Included
+Expected:    - isolated_from -  
+Got:  Burkholderia ambifaria AMMD - isolated_from - 
+
+
+False
+Expected:  Burkholderia ambifaria AMMD - isolated_from - the rhizosphere of pea -LRB- Pisum sativum L. -RRB- near Arlington, Wisconsin, USA
+Got:  Burkholderia ambifaria AMMD - isolated_from - the rhizosphere of pea -LRB- Pisum sativum L. -RRB- near Arlington , Wisconsin , USA
+
+
+False
+Expected:  the reference strain, CH34 - isolated_from - the sludge of a zinc decantation tank in Belgium that was polluted with high concentrations of several heavy metals
+Got:  Its optimal growth temperature - isolated_from - the sludge of a zinc decantation tank in Belgium that was polluted with high concentrations of several heavy metals , it and other metal-resistant members of the genus / diverse geographical locations
+
+
+False
+Expected:  Dehalococcoides sp. strain BAV1 - isolated_from - PCE-to-ethene-dechlorinating microcosms established with aquifer material collected at the contaminated Bachman Road site in Oscoda, Michigan -LRB- 6-8, 13 -RRB-
+Got:  Dehalococcoides sp. strain BAV1 - isolated_from - PCE-to-ethene-dechlorinating microcosms established with aquifer material collected at the contaminated Bachman Road site in Oscoda , Michigan -LRB- 6-8 , 13 -RRB-
+
+
+False
+Expected:  Desulfococcus oleovorans Hxd3 - isolated_from - the saline water phase of an oil-water separator from a northern German oil field -LRB- 1,2 -RRB-
+Got:  Max Planck Institute for Marine Microbiology Strain Hxd3 - isolated_from - a northern German oil field -LRB- 1,2 -RRB- / the saline water phase of an oil-water separator
+
+
+Included
+Expected:  D. deserti - isolated_from - the Sahara desert
+Got:  D. deserti , recently isolated from the Sahara desert , - isolated_from - the Sahara desert
+
+
+False
+Expected:  the first strain of Tropheryma whipplei - isolated_from -  
+Got:  We - isolated_from - 
+
+
+False
+Expected:  the genes - isolated_from - in eukaryotes
+Got:  Analysis of the cyanobacterial clock in Synechococcus - isolated_from - 
+
+
+Included
+Expected:  Thermoanaerobacter tengcongensis - isolated_from - a freshwater hot spring in Tengchong, China
+Got:  Thermoanaerobacter tengcongensis Thermoanaerobacter tengcongensis metabolizes - isolated_from - a freshwater
+
+
+Included
+Expected:  The sequenced strain - isolated_from - Beppu hot spring in Japan
+Got:  The sequenced strain - isolated_from - Beppu
+
+
+False
+Expected:  Thermotoga maritima - isolated_from - geothermal heated marine sediment at Vulcano, Italy
+Got:  Thermotoga maritima Thermotoga maritima - isolated_from - geothermal heated marine sediment at Vulcano , Italy
+
+
+False
+Expected:  The organism, strain HB27 - isolated_from - a natural thermal environment in Japan
+Got:  The organism , strain HB27 , - isolated_from - a natural thermal environment in Japan
+
+
+False
+Expected:  D. aromatica strain RCB - isolated_from - Potomic River sediment, Maryland, USA
+Got:  D. aromatica - isolated_from - Potomic River sediment , Maryland , USA
+
+
+False
+Expected:  Dechloromonas aromatica - isolated_from -  
+Got:  This - isolated_from - 
+
+
+Included
+Expected:  two unrelated strains, RCB and JJ, - isolated_from - two very diverse environments
+Got:   - isolated_from - two very diverse environments
+
+
+Included
+Expected:  D. restrictus - isolated_from - a laboratory system that was being fed with tetrachloroethene
+Got:  Isolation and Cultivation D. restrictus - isolated_from - a laboratory system that was being fed with tetrachloroethene
+
+
+False
+Expected:  The S. meliloti genome - isolated_from - nodules and soil primarily from host plants such as the Medicago -LRB- alfalfa and perennial and annual medics -RRB-, Melilotus -LRB- sweet clover -RRB-, and Trigonella -LRB- fenugreek -RRB- species -LRB- 11 -RRB-
+Got:  The S. meliloti genome - isolated_from - host plants such as the Medicago -LRB- alfalfa and perennial and annual medics -RRB- , Melilotus -LRB- sweet clover -RRB- , and Trigonella -LRB- fenugreek -RRB- species -LRB- 11 -RRB- / nodules and soil
+
+
+Included
+Expected:    - isolated_from -  
+Got:  The nutrients - isolated_from - 
+
+
+
+ 
+
+Edit distance:  1
+C1 results:  Counter({'True': 11, 'Included': 8, 'False': 7})
+C2 results:  Counter({'True': 14, 'False': 8, 'Included': 4})
+Results:  Counter({'False': 14, 'Included': 8, 'True': 4}) 
+
+False
+Expected:  Bartonella tribocorum - isolated_from - the blood of wild rats / fleas obtained from wild rats
+Got:  Bartonella tribocorum - isolated_from - fleas obtained from wild rats / wild rats / blood of wild rats
+
+
+False
+Expected:  Bartonella elizabethae - isolated_from - a case of endocarditis in a human
+Got:  This organism - isolated_from - a case of endocarditis in a human
+
+
+False
+Expected:  Most of the ~30 known species of bifidobacteria - isolated_from - the mammalian GIT / the vaginal and oral cavity
+Got:  Most of the ~ 30 known species of bifidobacteria - isolated_from - the mammalian GIT , and some from the vaginal and oral cavity / the vaginal and oral cavity
+
+
+False
+Expected:  Most of the ~30 known species of bifidobacteria - isolated_from - the mammalian GIT / the vaginal and oral cavity
+Got:  Most of the ~ 30 known species of bifidobacteria - isolated_from - the mammalian GIT , and some from the vaginal and oral cavity / the vaginal and oral cavity
+
+
+Included
+Expected:    - isolated_from -  
+Got:  Burkholderia ambifaria AMMD - isolated_from - 
+
+
+False
+Expected:  Burkholderia ambifaria AMMD - isolated_from - the rhizosphere of pea -LRB- Pisum sativum L. -RRB- near Arlington, Wisconsin, USA
+Got:  Burkholderia ambifaria AMMD - isolated_from - the rhizosphere of pea -LRB- Pisum sativum L. -RRB- near Arlington , Wisconsin , USA
+
+
+False
+Expected:  the reference strain, CH34 - isolated_from - the sludge of a zinc decantation tank in Belgium that was polluted with high concentrations of several heavy metals
+Got:  Its optimal growth temperature - isolated_from - the sludge of a zinc decantation tank in Belgium that was polluted with high concentrations of several heavy metals , it and other metal-resistant members of the genus / diverse geographical locations
+
+
+False
+Expected:  Dehalococcoides sp. strain BAV1 - isolated_from - PCE-to-ethene-dechlorinating microcosms established with aquifer material collected at the contaminated Bachman Road site in Oscoda, Michigan -LRB- 6-8, 13 -RRB-
+Got:  Dehalococcoides sp. strain BAV1 - isolated_from - PCE-to-ethene-dechlorinating microcosms established with aquifer material collected at the contaminated Bachman Road site in Oscoda , Michigan -LRB- 6-8 , 13 -RRB-
+
+
+False
+Expected:  Desulfococcus oleovorans Hxd3 - isolated_from - the saline water phase of an oil-water separator from a northern German oil field -LRB- 1,2 -RRB-
+Got:  Max Planck Institute for Marine Microbiology Strain Hxd3 - isolated_from - a northern German oil field -LRB- 1,2 -RRB- / the saline water phase of an oil-water separator
+
+
+Included
+Expected:  D. deserti - isolated_from - the Sahara desert
+Got:  D. deserti , recently isolated from the Sahara desert , - isolated_from - the Sahara desert
+
+
+False
+Expected:  the first strain of Tropheryma whipplei - isolated_from -  
+Got:  We - isolated_from - 
+
+
+False
+Expected:  the genes - isolated_from - in eukaryotes
+Got:  Analysis of the cyanobacterial clock in Synechococcus - isolated_from - 
+
+
+Included
+Expected:  Thermoanaerobacter tengcongensis - isolated_from - a freshwater hot spring in Tengchong, China
+Got:  Thermoanaerobacter tengcongensis Thermoanaerobacter tengcongensis metabolizes - isolated_from - a freshwater
+
+
+Included
+Expected:  The sequenced strain - isolated_from - Beppu hot spring in Japan
+Got:  The sequenced strain - isolated_from - Beppu
+
+
+Included
+Expected:  Thermotoga maritima - isolated_from - geothermal heated marine sediment at Vulcano, Italy
+Got:  Thermotoga maritima Thermotoga maritima - isolated_from - geothermal heated marine sediment at Vulcano , Italy
+
+
+False
+Expected:  The organism, strain HB27 - isolated_from - a natural thermal environment in Japan
+Got:  The organism , strain HB27 , - isolated_from - a natural thermal environment in Japan
+
+
+False
+Expected:  D. aromatica strain RCB - isolated_from - Potomic River sediment, Maryland, USA
+Got:  D. aromatica - isolated_from - Potomic River sediment , Maryland , USA
+
+
+False
+Expected:  Dechloromonas aromatica - isolated_from -  
+Got:  This - isolated_from - 
+
+
+Included
+Expected:  two unrelated strains, RCB and JJ, - isolated_from - two very diverse environments
+Got:   - isolated_from - two very diverse environments
+
+
+Included
+Expected:  D. restrictus - isolated_from - a laboratory system that was being fed with tetrachloroethene
+Got:  Isolation and Cultivation D. restrictus - isolated_from - a laboratory system that was being fed with tetrachloroethene
+
+
+False
+Expected:  The S. meliloti genome - isolated_from - nodules and soil primarily from host plants such as the Medicago -LRB- alfalfa and perennial and annual medics -RRB-, Melilotus -LRB- sweet clover -RRB-, and Trigonella -LRB- fenugreek -RRB- species -LRB- 11 -RRB-
+Got:  The S. meliloti genome - isolated_from - host plants such as the Medicago -LRB- alfalfa and perennial and annual medics -RRB- , Melilotus -LRB- sweet clover -RRB- , and Trigonella -LRB- fenugreek -RRB- species -LRB- 11 -RRB- / nodules and soil
+
+
+Included
+Expected:    - isolated_from -  
+Got:  The nutrients - isolated_from - 
+
+
+
+ 
+
+Edit distance:  2
+C1 results:  Counter({'True': 11, 'Included': 8, 'False': 7})
+C2 results:  Counter({'True': 17, 'False': 5, 'Included': 4})
+Results:  Counter({'False': 11, 'Included': 9, 'True': 6}) 
+
+False
+Expected:  Bartonella tribocorum - isolated_from - the blood of wild rats / fleas obtained from wild rats
+Got:  Bartonella tribocorum - isolated_from - fleas obtained from wild rats / wild rats / blood of wild rats
+
+
+False
+Expected:  Bartonella elizabethae - isolated_from - a case of endocarditis in a human
+Got:  This organism - isolated_from - a case of endocarditis in a human
+
+
+False
+Expected:  Most of the ~30 known species of bifidobacteria - isolated_from - the mammalian GIT / the vaginal and oral cavity
+Got:  Most of the ~ 30 known species of bifidobacteria - isolated_from - the mammalian GIT , and some from the vaginal and oral cavity / the vaginal and oral cavity
+
+
+False
+Expected:  Most of the ~30 known species of bifidobacteria - isolated_from - the mammalian GIT / the vaginal and oral cavity
+Got:  Most of the ~ 30 known species of bifidobacteria - isolated_from - the mammalian GIT , and some from the vaginal and oral cavity / the vaginal and oral cavity
+
+
+Included
+Expected:    - isolated_from -  
+Got:  Burkholderia ambifaria AMMD - isolated_from - 
+
+
+False
+Expected:  the reference strain, CH34 - isolated_from - the sludge of a zinc decantation tank in Belgium that was polluted with high concentrations of several heavy metals
+Got:  Its optimal growth temperature - isolated_from - the sludge of a zinc decantation tank in Belgium that was polluted with high concentrations of several heavy metals , it and other metal-resistant members of the genus / diverse geographical locations
+
+
+False
+Expected:  Desulfococcus oleovorans Hxd3 - isolated_from - the saline water phase of an oil-water separator from a northern German oil field -LRB- 1,2 -RRB-
+Got:  Max Planck Institute for Marine Microbiology Strain Hxd3 - isolated_from - a northern German oil field -LRB- 1,2 -RRB- / the saline water phase of an oil-water separator
+
+
+Included
+Expected:  D. deserti - isolated_from - the Sahara desert
+Got:  D. deserti , recently isolated from the Sahara desert , - isolated_from - the Sahara desert
+
+
+False
+Expected:  the first strain of Tropheryma whipplei - isolated_from -  
+Got:  We - isolated_from - 
+
+
+False
+Expected:  the genes - isolated_from - in eukaryotes
+Got:  Analysis of the cyanobacterial clock in Synechococcus - isolated_from - 
+
+
+Included
+Expected:  Thermoanaerobacter tengcongensis - isolated_from - a freshwater hot spring in Tengchong, China
+Got:  Thermoanaerobacter tengcongensis Thermoanaerobacter tengcongensis metabolizes - isolated_from - a freshwater
+
+
+Included
+Expected:  The sequenced strain - isolated_from - Beppu hot spring in Japan
+Got:  The sequenced strain - isolated_from - Beppu
+
+
+Included
+Expected:  Thermotoga maritima - isolated_from - geothermal heated marine sediment at Vulcano, Italy
+Got:  Thermotoga maritima Thermotoga maritima - isolated_from - geothermal heated marine sediment at Vulcano , Italy
+
+
+False
+Expected:  The organism, strain HB27 - isolated_from - a natural thermal environment in Japan
+Got:  The organism , strain HB27 , - isolated_from - a natural thermal environment in Japan
+
+
+Included
+Expected:  D. aromatica strain RCB - isolated_from - Potomic River sediment, Maryland, USA
+Got:  D. aromatica - isolated_from - Potomic River sediment , Maryland , USA
+
+
+False
+Expected:  Dechloromonas aromatica - isolated_from -  
+Got:  This - isolated_from - 
+
+
+Included
+Expected:  two unrelated strains, RCB and JJ, - isolated_from - two very diverse environments
+Got:   - isolated_from - two very diverse environments
+
+
+Included
+Expected:  D. restrictus - isolated_from - a laboratory system that was being fed with tetrachloroethene
+Got:  Isolation and Cultivation D. restrictus - isolated_from - a laboratory system that was being fed with tetrachloroethene
+
+
+False
+Expected:  The S. meliloti genome - isolated_from - nodules and soil primarily from host plants such as the Medicago -LRB- alfalfa and perennial and annual medics -RRB-, Melilotus -LRB- sweet clover -RRB-, and Trigonella -LRB- fenugreek -RRB- species -LRB- 11 -RRB-
+Got:  The S. meliloti genome - isolated_from - host plants such as the Medicago -LRB- alfalfa and perennial and annual medics -RRB- , Melilotus -LRB- sweet clover -RRB- , and Trigonella -LRB- fenugreek -RRB- species -LRB- 11 -RRB- / nodules and soil
+
+
+Included
+Expected:    - isolated_from -  
+Got:  The nutrients - isolated_from - 
+
+
+
+ 
+
+Edit distance:  7
+C1 results:  Counter({'True': 12, 'Included': 8, 'False': 6})
+C2 results:  Counter({'True': 17, 'False': 5, 'Included': 4})
+Results:  Counter({'False': 10, 'Included': 9, 'True': 7}) 
+
+False
+Expected:  Bartonella tribocorum - isolated_from - the blood of wild rats / fleas obtained from wild rats
+Got:  Bartonella tribocorum - isolated_from - fleas obtained from wild rats / wild rats / blood of wild rats
+
+
+False
+Expected:  Bartonella elizabethae - isolated_from - a case of endocarditis in a human
+Got:  This organism - isolated_from - a case of endocarditis in a human
+
+
+False
+Expected:  Most of the ~30 known species of bifidobacteria - isolated_from - the mammalian GIT / the vaginal and oral cavity
+Got:  Most of the ~ 30 known species of bifidobacteria - isolated_from - the mammalian GIT , and some from the vaginal and oral cavity / the vaginal and oral cavity
+
+
+False
+Expected:  Most of the ~30 known species of bifidobacteria - isolated_from - the mammalian GIT / the vaginal and oral cavity
+Got:  Most of the ~ 30 known species of bifidobacteria - isolated_from - the mammalian GIT , and some from the vaginal and oral cavity / the vaginal and oral cavity
+
+
+Included
+Expected:    - isolated_from -  
+Got:  Burkholderia ambifaria AMMD - isolated_from - 
+
+
+False
+Expected:  the reference strain, CH34 - isolated_from - the sludge of a zinc decantation tank in Belgium that was polluted with high concentrations of several heavy metals
+Got:  Its optimal growth temperature - isolated_from - the sludge of a zinc decantation tank in Belgium that was polluted with high concentrations of several heavy metals , it and other metal-resistant members of the genus / diverse geographical locations
+
+
+False
+Expected:  Desulfococcus oleovorans Hxd3 - isolated_from - the saline water phase of an oil-water separator from a northern German oil field -LRB- 1,2 -RRB-
+Got:  Max Planck Institute for Marine Microbiology Strain Hxd3 - isolated_from - a northern German oil field -LRB- 1,2 -RRB- / the saline water phase of an oil-water separator
+
+
+Included
+Expected:  D. deserti - isolated_from - the Sahara desert
+Got:  D. deserti , recently isolated from the Sahara desert , - isolated_from - the Sahara desert
+
+
+False
+Expected:  the first strain of Tropheryma whipplei - isolated_from -  
+Got:  We - isolated_from - 
+
+
+False
+Expected:  the genes - isolated_from - in eukaryotes
+Got:  Analysis of the cyanobacterial clock in Synechococcus - isolated_from - 
+
+
+Included
+Expected:  Thermoanaerobacter tengcongensis - isolated_from - a freshwater hot spring in Tengchong, China
+Got:  Thermoanaerobacter tengcongensis Thermoanaerobacter tengcongensis metabolizes - isolated_from - a freshwater
+
+
+Included
+Expected:  The sequenced strain - isolated_from - Beppu hot spring in Japan
+Got:  The sequenced strain - isolated_from - Beppu
+
+
+Included
+Expected:  Thermotoga maritima - isolated_from - geothermal heated marine sediment at Vulcano, Italy
+Got:  Thermotoga maritima Thermotoga maritima - isolated_from - geothermal heated marine sediment at Vulcano , Italy
+
+
+Included
+Expected:  D. aromatica strain RCB - isolated_from - Potomic River sediment, Maryland, USA
+Got:  D. aromatica - isolated_from - Potomic River sediment , Maryland , USA
+
+
+False
+Expected:  Dechloromonas aromatica - isolated_from -  
+Got:  This - isolated_from - 
+
+
+Included
+Expected:  two unrelated strains, RCB and JJ, - isolated_from - two very diverse environments
+Got:   - isolated_from - two very diverse environments
+
+
+Included
+Expected:  D. restrictus - isolated_from - a laboratory system that was being fed with tetrachloroethene
+Got:  Isolation and Cultivation D. restrictus - isolated_from - a laboratory system that was being fed with tetrachloroethene
+
+
+False
+Expected:  The S. meliloti genome - isolated_from - nodules and soil primarily from host plants such as the Medicago -LRB- alfalfa and perennial and annual medics -RRB-, Melilotus -LRB- sweet clover -RRB-, and Trigonella -LRB- fenugreek -RRB- species -LRB- 11 -RRB-
+Got:  The S. meliloti genome - isolated_from - host plants such as the Medicago -LRB- alfalfa and perennial and annual medics -RRB- , Melilotus -LRB- sweet clover -RRB- , and Trigonella -LRB- fenugreek -RRB- species -LRB- 11 -RRB- / nodules and soil
+
+
+Included
+Expected:    - isolated_from -  
+Got:  The nutrients - isolated_from - 
+
+
+
+ 
+

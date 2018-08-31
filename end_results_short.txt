@@ -1,0 +1,20 @@
+Edit distance:  0
+C1 results:  Counter({'False': 9, 'True': 9, 'Included': 8})
+C2 results:  Counter({'False': 9, 'True': 9, 'Included': 8})
+Results:  Counter({'False': 15, 'Included': 7, 'True': 4}) 
+
+Edit distance:  1
+C1 results:  Counter({'True': 11, 'Included': 8, 'False': 7})
+C2 results:  Counter({'True': 14, 'False': 8, 'Included': 4})
+Results:  Counter({'False': 14, 'Included': 8, 'True': 4}) 
+
+Edit distance:  2
+C1 results:  Counter({'True': 11, 'Included': 8, 'False': 7})
+C2 results:  Counter({'True': 17, 'False': 5, 'Included': 4})
+Results:  Counter({'False': 11, 'Included': 9, 'True': 6}) 
+
+Edit distance:  7
+C1 results:  Counter({'True': 12, 'Included': 8, 'False': 6})
+C2 results:  Counter({'True': 17, 'False': 5, 'Included': 4})
+Results:  Counter({'False': 10, 'Included': 9, 'True': 7}) 
+
